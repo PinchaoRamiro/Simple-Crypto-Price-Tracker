@@ -29,7 +29,7 @@ const CryptoList: React.FC<CryptoListProps> = ({ cryptos, loading }) => {
   
 
   return (
-    <ul className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+    <ul className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 p-4">
       {cryptos.map((crypto) => {
         const priceUsd = crypto.priceUsd ? parseFloat(crypto.priceUsd.toString()) : 0;
 
