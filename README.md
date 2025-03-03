@@ -1,5 +1,7 @@
 # Crypto Price Tracker
 
+! [ Site ] ( web-app\public\ImageSite.png )
+
 The **Crypto Price Tracker** is a web application built with **Next.js** that allows users to track the latest prices of cryptocurrencies. It uses the **CoinCap API** to fetch live data and provides a user-friendly interface for searching and refreshing cryptocurrency prices.
 
 ## Features
