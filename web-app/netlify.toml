@@ -1,0 +1,10 @@
+[build]
+  base    = "web-app"          
+  command = "npm run build" 
+  publish = ".next"        
+
+# Opcional: Configura redirecciones para la documentación
+[[redirects]]
+  from    = "/*"
+  to      = "/"
+  status  = 200
